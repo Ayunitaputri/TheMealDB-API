@@ -1,0 +1,70 @@
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Slab:wght@700&display=swap');
+#mealList{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8em;
+}
+.mealListHeader{
+    margin-top: 11em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    margin: 10px 10px 10px 10px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 19px 20px 10px -7px rgba(0,0,0,0.1);
+}
+.card-img{
+    width: 100%;
+    display: block;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    padding: 0 5px 0px 5px;
+}
+p{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#get-recipe{
+    background-color: #F16767;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    margin-right: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*Responsive*/
+@media screen and (max-width:700px) {
+    .card{
+        width:20em;
+        display: block;
+        margin: 1em;
+    }
+
+    body{
+        display: flex;
+        align-items: flex-;
+    }
+}
